@@ -26,6 +26,7 @@
 #include <pthread.h>
 #include <time.h>
 #include <sys/time.h>
+#include <sys/signalfd.h>
 #include <linux/rtnetlink.h>
 #include "iw.h"
 #include "error.h"

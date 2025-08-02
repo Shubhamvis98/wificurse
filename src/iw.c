@@ -23,6 +23,8 @@
 #include <net/ethernet.h>
 #include <netpacket/packet.h>
 #include <linux/wireless.h>
+#include <unistd.h>
+#include <arpa/inet.h>
 #include "error.h"
 #include "iw.h"
 
